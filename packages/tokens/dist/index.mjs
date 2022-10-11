@@ -1,5 +1,5 @@
 // src/colors.ts
-const colors = {
+var colors = {
   white: "#FFF",
   black: "#000",
   gray100: "#E1E1E6",
@@ -13,11 +13,11 @@ const colors = {
   ignite300: "#00B37E",
   ignite500: "#00875F",
   ignite700: "#015F43",
-  ignite900: "#00291D",
+  ignite900: "#00291D"
 };
 
 // src/font-sizes.ts
-const fontSizes = {
+var fontSizes = {
   xxs: "0.625rem",
   xs: "0.75rem",
   sm: "0.875rem",
@@ -30,17 +30,17 @@ const fontSizes = {
   "6xl": "3rem",
   "7xl": "4rem",
   "8xl": "4.5rem",
-  "9xl": "6rem",
+  "9xl": "6rem"
 };
 
 // src/fonts.ts
-const fonts = {
+var fonts = {
   default: "Roboto, sans-serif",
-  code: "monospace",
+  code: "monospace"
 };
 
 // src/space.ts
-const space = {
+var space = {
   1: "0.25rem",
   2: "0.5rem",
   3: "0.75rem",
@@ -55,31 +55,39 @@ const space = {
   20: "5rem",
   40: "10rem",
   64: "16rem",
-  80: "20rem",
+  80: "20rem"
 };
 
 // src/radii.ts
-const radii = {
+var radii = {
   px: "1px",
   xs: "4px",
   sm: "6px",
   md: "8px",
   lg: "16px",
-  full: "99999px",
+  full: "99999px"
 };
 
 // src/line-heights.ts
-const lineHeights = {
+var lineHeights = {
   shorter: "125%",
   short: "140%",
   base: "160%",
-  tall: "180%",
+  tall: "180%"
 };
 
 // src/font-weights.ts
-const fontWeights = {
+var fontWeights = {
   regular: "400",
   medium: "500",
-  bold: "700",
+  bold: "700"
 };
-export { colors, fontSizes, fontWeights, fonts, lineHeights, radii, space };
+export {
+  colors,
+  fontSizes,
+  fontWeights,
+  fonts,
+  lineHeights,
+  radii,
+  space
+};
